@@ -1,7 +1,7 @@
-import value from '../src';
+import OauthDeviceFlowWrapper from '../src';
 
-describe('module', () => {
-    it('should export 42', () => {
-        expect(value).toBe(42);
+describe('OauthDeviceFlowWrapper', () => {
+    it('should be defined', () => {
+        expect(OauthDeviceFlowWrapper).toBeDefined();
     });
 });

@@ -1,27 +1,24 @@
-# typescript-package-scaffold
+# OAuth device flow wrapper
 
-[![travis-ci](https://travis-ci.org/yume-chan/typescript-package-scaffold.svg?branch=master)](https://travis-ci.org/yume-chan/typescript-package-scaffold)
-[![Greenkeeper badge](https://badges.greenkeeper.io/yume-chan/typescript-package-scaffold.svg)](https://greenkeeper.io/)
+Use OAuth 2.0 Device Authorization [(draft-ietf-oauth-device-flow-15)](https://tools.ietf.org/html/draft-ietf-oauth-device-flow-15) to log into a third-party OAuth 2.0 authorization code [(Section 4.1. of [RTC6749])](https://tools.ietf.org/html/rfc6749#section-4.1) authorization server.
 
-*DESCRIPTION TO BE FILLED*
+- [OAuth device flow wrapper](#oauth-device-flow-wrapper)
+  - [Example](#example)
+  - [Development](#development)
+    - [Install dependencies](#install-dependencies)
+    - [Testing](#testing)
+    - [Coverage](#coverage)
+  - [License](#license)
 
-- [typescript-package-scaffold](#typescript-package-scaffold)
-  - [API](#API)
-  - [Development](#Development)
-    - [Install dependencies:](#Install-dependencies)
-    - [Testing](#Testing)
-    - [Coverage](#Coverage)
-  - [License](#License)
+## Example
 
-## API
-
-*TO BE FILLED*
+See [example/index.ts](example/index.ts).
 
 ## Development
 
 This project uses [pnpm](https://pnpm.js.org/) ([GitHub](https://github.com/pnpm/pnpm)) to manage dependency packages.
 
-### Install dependencies:
+### Install dependencies
 
 ``` shell
 pnpm i

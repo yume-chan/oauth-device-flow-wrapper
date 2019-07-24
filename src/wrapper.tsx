@@ -268,14 +268,18 @@ export default class OauthDeviceFlowWrapper {
             const tokenUri = body.get('token_uri')!;
             body.delete('token_uri');
 
-            const { status, statusText, text } = await fetch(tokenUri, {
+            const { status, statusText, responseText } = await fetch(tokenUri, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
                 },
                 body: body.toString(),
-            });
-            response.writeHead(status, statusText).end(await text());
+            }).then(async response => ({
+                status: response.status,
+                statusText: response.statusText,
+                responseText: await response.text(),
+            }));
+            response.writeHead(status, statusText).end(responseText);
         }
     }
 

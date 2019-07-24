@@ -1,0 +1,6 @@
+coverage
+test
+
+.travis.yml
+jest.config.js
+pnpm-lock.yaml

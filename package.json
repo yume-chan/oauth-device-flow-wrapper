@@ -34,7 +34,7 @@
     "ts-jest": "26.1.4",
     "typescript": "3.9.5",
     "webpack": "4.43.0",
-    "webpack-cli": "3.3.11"
+    "webpack-cli": "3.3.12"
   },
   "dependencies": {
     "node-fetch": "^2.6.0",

@@ -6,7 +6,7 @@ devDependencies:
   '@types/jest': 26.0.7
   '@types/node': 12.12.44
   '@types/node-fetch': 2.5.7
-  '@types/react': 16.9.35
+  '@types/react': 16.9.43
   '@types/react-dom': 16.9.8
   awesome-typescript-loader: 5.2.1_typescript@3.9.5
   jest: 26.0.1
@@ -720,6 +720,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-q0n0SsWcGc8nDqH2GJfWQWUOmZSJhXV64CjVN5SvcNti3TdEaA3AH0D8DwNmMdzjMAC/78tB8nAZIlV8yTz+zQ==
+  /@types/react/16.9.43:
+    dependencies:
+      '@types/prop-types': 15.7.1
+      csstype: 2.6.6
+    dev: true
+    resolution:
+      integrity: sha512-PxshAFcnJqIWYpJbLPriClH53Z2WlJcVZE+NP2etUtWQs2s7yIMj3/LDKZT/5CHJ/F62iyjVCDu2H3jHEXIxSg==
   /@types/stack-utils/1.0.1:
     dev: true
     resolution:
@@ -5853,7 +5860,7 @@ specifiers:
   '@types/jest': 26.0.7
   '@types/node': 12.12.44
   '@types/node-fetch': 2.5.7
-  '@types/react': 16.9.35
+  '@types/react': 16.9.43
   '@types/react-dom': 16.9.8
   awesome-typescript-loader: 5.2.1
   jest: 26.0.1

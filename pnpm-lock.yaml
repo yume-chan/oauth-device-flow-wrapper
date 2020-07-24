@@ -3,7 +3,7 @@ dependencies:
   react: 16.8.6
   react-dom: 16.8.6_react@16.8.6
 devDependencies:
-  '@types/jest': 25.2.3
+  '@types/jest': 26.0.7
   '@types/node': 12.12.44
   '@types/node-fetch': 2.5.7
   '@types/react': 16.9.35
@@ -673,13 +673,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-UpYjBi8xefVChsCoBpKShdxTllC9pwISirfoZsUa2AAdQg/Jd2KQGtSbw+ya7GPo7x/wAPlH6JBhKhAsXUEZNA==
-  /@types/jest/25.2.3:
+  /@types/jest/26.0.7:
     dependencies:
       jest-diff: 25.5.0
       pretty-format: 25.5.0
     dev: true
     resolution:
-      integrity: sha512-JXc1nK/tXHiDhV55dvfzqtmP4S3sy3T3ouV2tkViZgxY/zeUkcpQcQPGRlgF4KmWzWW5oiWYSZwtCB+2RsE4Fw==
+      integrity: sha512-+x0077/LoN6MjqBcVOe1y9dpryWnfDZ+Xfo3EqGeBcfPRJlQp3Lw62RvNlWxuGv7kOEwlHriAa54updi3Jvvwg==
   /@types/node-fetch/2.5.7:
     dependencies:
       '@types/node': 12.12.42
@@ -5850,7 +5850,7 @@ packages:
     resolution:
       integrity: sha512-92O1HWEjw27sBfgmXiixJWT5hRBp2eobqXicLtPBIDBhYB+1HpwZlXmbW2luivBJHBzki+7VyCLRtAkScbTBQA==
 specifiers:
-  '@types/jest': 25.2.3
+  '@types/jest': 26.0.7
   '@types/node': 12.12.44
   '@types/node-fetch': 2.5.7
   '@types/react': 16.9.35

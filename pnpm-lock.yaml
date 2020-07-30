@@ -12,8 +12,8 @@ devDependencies:
   jest: 26.0.1
   ts-jest: 26.1.4_jest@26.0.1+typescript@3.9.5
   typescript: 3.9.5
-  webpack: 4.43.0_webpack@4.43.0
-  webpack-cli: 3.3.12_webpack@4.43.0
+  webpack: 4.44.0_webpack@4.44.0
+  webpack-cli: 3.3.12_webpack@4.44.0
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.0.0:
@@ -1350,7 +1350,7 @@ packages:
       chownr: 1.1.2
       figgy-pudding: 3.5.1
       glob: 7.1.4
-      graceful-fs: 4.2.0
+      graceful-fs: 4.2.4
       infer-owner: 1.0.4
       lru-cache: 5.1.1
       mississippi: 3.0.0
@@ -1464,7 +1464,7 @@ packages:
       fsevents: 1.2.9
     resolution:
       integrity: sha512-ZmZUazfOzf0Nve7duiCKD23PFSCs4JPoYyccjUFF3aQkQadqBhfzhjkwBH2mNOG9cTBwhamM37EIsIkZw3nRgg==
-  /chokidar/3.4.0:
+  /chokidar/3.4.1:
     dependencies:
       anymatch: 3.1.1
       braces: 3.0.2
@@ -1480,7 +1480,7 @@ packages:
     optionalDependencies:
       fsevents: 2.1.3
     resolution:
-      integrity: sha512-aXAaho2VJtisB/1fg1+3nlLJqGOuewTzQpd/Tz0yTg2R0e4IGtshYvtjowyEumcBv2z+y4+kc75Mz7j5xJskcQ==
+      integrity: sha512-TQTJyr2stihpC4Sya9hs2Xh+O2wf+igjL36Y75xx2WdHuiICcn/XJza46Jwt0eT5hVpQOzo3FpY3cj3RVYLX0g==
   /chownr/1.1.2:
     dev: true
     resolution:
@@ -1975,6 +1975,16 @@ packages:
       node: '>=6.9.0'
     resolution:
       integrity: sha512-S7eiFb/erugyd1rLb6mQ3Vuq+EXHv5cpCkNqqIkYkBgN2QdFnyCZzFBleqwGEx4lgNGYij81BWnCrFNK7vxvjQ==
+  /enhanced-resolve/4.3.0:
+    dependencies:
+      graceful-fs: 4.2.4
+      memory-fs: 0.5.0
+      tapable: 1.1.3
+    dev: true
+    engines:
+      node: '>=6.9.0'
+    resolution:
+      integrity: sha512-3e87LvavsdxyoCfGusJnrZ5G8SLPOFeHSNpZI/ATL9a5leXo2k0w6MKnbqhdBad9qTobSfB20Ld7UmgoNbAZkQ==
   /errno/0.1.7:
     dependencies:
       prr: 1.0.1
@@ -2342,7 +2352,7 @@ packages:
       integrity: sha1-i/tVAr3kpNNs/e6gB/zKIdfjgq8=
   /fs-write-stream-atomic/1.0.10:
     dependencies:
-      graceful-fs: 4.2.0
+      graceful-fs: 4.2.4
       iferr: 0.1.5
       imurmurhash: 0.1.4
       readable-stream: 2.3.6
@@ -4525,7 +4535,7 @@ packages:
       integrity: sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
   /readdirp/2.2.1:
     dependencies:
-      graceful-fs: 4.2.0
+      graceful-fs: 4.2.4
       micromatch: 3.1.10
       readable-stream: 2.3.6
     dev: true
@@ -5183,7 +5193,7 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-un0FmiRUQNr5PJqy9kP7c40F5BOfpGlYTrxonDChEZB7pzZxRNp/bt+ymiy9/npwXya9KH99nJ/GXFIiUkYGFQ==
-  /terser-webpack-plugin/1.4.3_webpack@4.43.0:
+  /terser-webpack-plugin/1.4.3_webpack@4.44.0:
     dependencies:
       cacache: 12.0.4
       find-cache-dir: 2.1.0
@@ -5192,7 +5202,7 @@ packages:
       serialize-javascript: 2.1.2
       source-map: 0.6.1
       terser: 4.1.2
-      webpack: 4.43.0_webpack@4.43.0
+      webpack: 4.44.0_webpack@4.44.0
       webpack-sources: 1.4.3
       worker-farm: 1.7.0
     dev: true
@@ -5573,16 +5583,16 @@ packages:
     optional: true
     resolution:
       integrity: sha512-9TyfOyN/zLUbA288wZ8IsMZ+6cbzvsNyEzSBp6e/zkifi6xxbl8SmQ/CxQq32k8NNqrdVEVUVSEf56L4rQ/ZxA==
-  /watchpack/1.7.2:
+  /watchpack/1.7.4:
     dependencies:
-      graceful-fs: 4.2.0
+      graceful-fs: 4.2.4
       neo-async: 2.6.1
     dev: true
     optionalDependencies:
-      chokidar: 3.4.0
+      chokidar: 3.4.1
       watchpack-chokidar2: 2.0.0
     resolution:
-      integrity: sha512-ymVbbQP40MFTp+cNMvpyBpBtygHnPzPkHqoIwRRj/0B8KhqQwV8LaKjtbaxF2lK4vl8zN9wCxS46IFCU5K4W0g==
+      integrity: sha512-aWAgTW4MoSJzZPAicljkO1hsi1oKj/RRq/OJQh2PKI2UKL04c2Bs+MBOB+BBABHTXJpf9mCwHN7ANCvYsvY2sg==
   /webidl-conversions/5.0.0:
     dev: true
     engines:
@@ -5595,7 +5605,7 @@ packages:
       node: '>=10.4'
     resolution:
       integrity: sha512-qBIvFLGiBpLjfwmYAaHPXsn+ho5xZnGvyGvsarywGNc8VyQJUMHJ8OBKGGrPER0okBeMDaan4mNBlgBROxuI8w==
-  /webpack-cli/3.3.12_webpack@4.43.0:
+  /webpack-cli/3.3.12_webpack@4.44.0:
     dependencies:
       chalk: 2.4.2
       cross-spawn: 6.0.5
@@ -5607,7 +5617,7 @@ packages:
       loader-utils: 1.4.0
       supports-color: 6.1.0
       v8-compile-cache: 2.1.1
-      webpack: 4.43.0_webpack@4.43.0
+      webpack: 4.44.0_webpack@4.44.0
       yargs: 13.3.2
     dev: true
     engines:
@@ -5635,7 +5645,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==
-  /webpack/4.43.0_webpack@4.43.0:
+  /webpack/4.44.0_webpack@4.44.0:
     dependencies:
       '@webassemblyjs/ast': 1.9.0
       '@webassemblyjs/helper-module-context': 1.9.0
@@ -5645,11 +5655,11 @@ packages:
       ajv: 6.10.2
       ajv-keywords: 3.4.1_ajv@6.10.2
       chrome-trace-event: 1.0.2
-      enhanced-resolve: 4.1.0
+      enhanced-resolve: 4.3.0
       eslint-scope: 4.0.3
       json-parse-better-errors: 1.0.2
       loader-runner: 2.4.0
-      loader-utils: 1.2.3
+      loader-utils: 1.4.0
       memory-fs: 0.4.1
       micromatch: 3.1.10
       mkdirp: 0.5.5
@@ -5657,8 +5667,8 @@ packages:
       node-libs-browser: 2.2.1
       schema-utils: 1.0.0
       tapable: 1.1.3
-      terser-webpack-plugin: 1.4.3_webpack@4.43.0
-      watchpack: 1.7.2
+      terser-webpack-plugin: 1.4.3_webpack@4.44.0
+      watchpack: 1.7.4
       webpack-sources: 1.4.3
     dev: true
     engines:
@@ -5667,7 +5677,7 @@ packages:
     peerDependencies:
       webpack: '*'
     resolution:
-      integrity: sha512-GW1LjnPipFW2Y78OOab8NJlCflB7EFskMih2AHdvjbpKMeDJqEgSx24cXXXiPS65+WSwVyxtDsJH6jGX2czy+g==
+      integrity: sha512-wAuJxK123sqAw31SpkPiPW3iKHgFUiKvO7E7UZjtdExcsRe3fgav4mvoMM7vvpjLHVoJ6a0Mtp2fzkoA13e0Zw==
   /whatwg-encoding/1.0.5:
     dependencies:
       iconv-lite: 0.4.24
@@ -5849,5 +5859,5 @@ specifiers:
   react-dom: ^16.8.6
   ts-jest: 26.1.4
   typescript: 3.9.5
-  webpack: 4.43.0
+  webpack: 4.44.0
   webpack-cli: 3.3.12

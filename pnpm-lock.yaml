@@ -12,9 +12,9 @@ devDependencies:
   jest: 26.1.0
   ts-jest: 26.1.4_jest@26.1.0+typescript@3.9.5
   typescript: 3.9.5
-  webpack: 4.44.0_webpack@4.44.0
-  webpack-cli: 3.3.12_webpack@4.44.0
-lockfileVersion: 5.1
+  webpack: 4.46.0_webpack-cli@3.3.12
+  webpack-cli: 3.3.12_webpack@4.46.0
+lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.10.1:
     dependencies:
@@ -331,7 +331,7 @@ packages:
       jest-haste-map: 26.1.0
       jest-message-util: 26.1.0
       jest-regex-util: 26.0.0
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
       jest-resolve-dependencies: 26.1.0
       jest-runner: 26.1.0
       jest-runtime: 26.1.0
@@ -399,7 +399,7 @@ packages:
       istanbul-lib-source-maps: 4.0.0
       istanbul-reports: 3.0.2
       jest-haste-map: 26.1.0
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
       jest-util: 26.1.0
       jest-worker: 26.1.0
       slash: 3.0.0
@@ -1867,7 +1867,7 @@ packages:
       node: '>=6.9.0'
     resolution:
       integrity: sha512-S7eiFb/erugyd1rLb6mQ3Vuq+EXHv5cpCkNqqIkYkBgN2QdFnyCZzFBleqwGEx4lgNGYij81BWnCrFNK7vxvjQ==
-  /enhanced-resolve/4.3.0:
+  /enhanced-resolve/4.5.0:
     dependencies:
       graceful-fs: 4.2.4
       memory-fs: 0.5.0
@@ -1876,7 +1876,7 @@ packages:
     engines:
       node: '>=6.9.0'
     resolution:
-      integrity: sha512-3e87LvavsdxyoCfGusJnrZ5G8SLPOFeHSNpZI/ATL9a5leXo2k0w6MKnbqhdBad9qTobSfB20Ld7UmgoNbAZkQ==
+      integrity: sha512-Nv9m36S/vxpsI+Hc4/ZGRs0n9mXqSWGGq49zxb/cJfPAQMbUtttJAlNPS4AQzaBdw/pKskw5bMbekT/Y7W/Wlg==
   /errno/0.1.7:
     dependencies:
       prr: 1.0.1
@@ -2271,6 +2271,7 @@ packages:
     resolution:
       integrity: sha512-oeyj2H3EjjonWcFjD5NvZNE9Rqe4UW+nQBU2HNeKw0koVLEFIhtyETyAakeAM3de7Z/SW5kcA+fZUait9EApnw==
   /fsevents/2.1.3:
+    deprecated: '"Please update to latest v2.3 or v2.2"'
     dev: true
     engines:
       node: ^8.16.0 || ^10.6.0 || >=11.0.0
@@ -2962,7 +2963,7 @@ packages:
       jest-get-type: 26.0.0
       jest-jasmine2: 26.1.0
       jest-regex-util: 26.0.0
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
       jest-util: 26.1.0
       jest-validate: 26.1.0
       micromatch: 4.0.2
@@ -3141,7 +3142,7 @@ packages:
       integrity: sha512-1Rm8EIJ3ZFA8yCIie92UbxZWj9SuVmUGcyhLHyAhY6WI3NIct38nVcfOPWhJteqSn8V8e3xOMha9Ojfazfpovw==
   /jest-pnp-resolver/1.2.1_jest-resolve@26.1.0:
     dependencies:
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
     dev: true
     engines:
       node: '>=6'
@@ -3168,7 +3169,7 @@ packages:
       node: '>= 10.14.2'
     resolution:
       integrity: sha512-fQVEPHHQ1JjHRDxzlLU/buuQ9om+hqW6Vo928aa4b4yvq4ZHBtRSDsLdKQLuCqn5CkTVpYZ7ARh2fbA8WkRE6g==
-  /jest-resolve/26.1.0_jest-resolve@26.1.0:
+  /jest-resolve/26.1.0:
     dependencies:
       '@jest/types': 26.1.0
       chalk: 4.0.0
@@ -3181,8 +3182,6 @@ packages:
     dev: true
     engines:
       node: '>= 10.14.2'
-    peerDependencies:
-      jest-resolve: '*'
     resolution:
       integrity: sha512-KsY1JV9FeVgEmwIISbZZN83RNGJ1CC+XUCikf/ZWJBX/tO4a4NvA21YixokhdR9UnmPKKAC4LafVixJBrwlmfg==
   /jest-runner/26.1.0:
@@ -3200,7 +3199,7 @@ packages:
       jest-jasmine2: 26.1.0
       jest-leak-detector: 26.1.0
       jest-message-util: 26.1.0
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
       jest-runtime: 26.1.0
       jest-util: 26.1.0
       jest-worker: 26.1.0
@@ -3232,7 +3231,7 @@ packages:
       jest-message-util: 26.1.0
       jest-mock: 26.1.0
       jest-regex-util: 26.0.0
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
       jest-snapshot: 26.1.0
       jest-util: 26.1.0
       jest-validate: 26.1.0
@@ -3266,7 +3265,7 @@ packages:
       jest-haste-map: 26.1.0
       jest-matcher-utils: 26.1.0
       jest-message-util: 26.1.0
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
       natural-compare: 1.4.0
       pretty-format: 26.1.0
       semver: 7.3.2
@@ -4486,7 +4485,7 @@ packages:
       request-promise-core: 1.1.3_request@2.88.2
       stealthy-require: 1.1.1
       tough-cookie: 2.5.0
-    deprecated: 'request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142'
+    deprecated: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
     dev: true
     engines:
       node: '>=0.12.0'
@@ -4516,7 +4515,7 @@ packages:
       tough-cookie: 2.5.0
       tunnel-agent: 0.6.0
       uuid: 3.3.2
-    deprecated: 'request has been deprecated, see https://github.com/request/request/issues/3142'
+    deprecated: request has been deprecated, see https://github.com/request/request/issues/3142
     dev: true
     engines:
       node: '>= 6'
@@ -4570,7 +4569,7 @@ packages:
     resolution:
       integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
   /resolve-url/0.2.1:
-    deprecated: 'https://github.com/lydell/resolve-url#deprecated'
+    deprecated: https://github.com/lydell/resolve-url#deprecated
     dev: true
     resolution:
       integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
@@ -5085,7 +5084,7 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-un0FmiRUQNr5PJqy9kP7c40F5BOfpGlYTrxonDChEZB7pzZxRNp/bt+ymiy9/npwXya9KH99nJ/GXFIiUkYGFQ==
-  /terser-webpack-plugin/1.4.3_webpack@4.44.0:
+  /terser-webpack-plugin/1.4.3_webpack@4.46.0:
     dependencies:
       cacache: 12.0.4
       find-cache-dir: 2.1.0
@@ -5094,7 +5093,7 @@ packages:
       serialize-javascript: 2.1.2
       source-map: 0.6.1
       terser: 4.1.2
-      webpack: 4.44.0_webpack@4.44.0
+      webpack: 4.46.0_webpack-cli@3.3.12
       webpack-sources: 1.4.3
       worker-farm: 1.7.0
     dev: true
@@ -5361,7 +5360,7 @@ packages:
     resolution:
       integrity: sha512-KY9Frmirql91X2Qgjry0Wd4Y+YTdrdZheS8TFwvkbLWf/G5KNJDCh6pKL5OZctEW4+0Baa5idK2ZQuELRwPznQ==
   /urix/0.1.0:
-    deprecated: 'Please see https://github.com/lydell/urix#deprecated'
+    deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: true
     resolution:
       integrity: sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
@@ -5491,7 +5490,7 @@ packages:
       node: '>=10.4'
     resolution:
       integrity: sha512-qBIvFLGiBpLjfwmYAaHPXsn+ho5xZnGvyGvsarywGNc8VyQJUMHJ8OBKGGrPER0okBeMDaan4mNBlgBROxuI8w==
-  /webpack-cli/3.3.12_webpack@4.44.0:
+  /webpack-cli/3.3.12_webpack@4.46.0:
     dependencies:
       chalk: 2.4.2
       cross-spawn: 6.0.5
@@ -5503,7 +5502,7 @@ packages:
       loader-utils: 1.4.0
       supports-color: 6.1.0
       v8-compile-cache: 2.1.1
-      webpack: 4.44.0_webpack@4.44.0
+      webpack: 4.46.0_webpack-cli@3.3.12
       yargs: 13.3.2
     dev: true
     engines:
@@ -5531,7 +5530,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==
-  /webpack/4.44.0_webpack@4.44.0:
+  /webpack/4.46.0_webpack-cli@3.3.12:
     dependencies:
       '@webassemblyjs/ast': 1.9.0
       '@webassemblyjs/helper-module-context': 1.9.0
@@ -5541,7 +5540,7 @@ packages:
       ajv: 6.10.2
       ajv-keywords: 3.4.1_ajv@6.10.2
       chrome-trace-event: 1.0.2
-      enhanced-resolve: 4.3.0
+      enhanced-resolve: 4.5.0
       eslint-scope: 4.0.3
       json-parse-better-errors: 1.0.2
       loader-runner: 2.4.0
@@ -5553,17 +5552,24 @@ packages:
       node-libs-browser: 2.2.1
       schema-utils: 1.0.0
       tapable: 1.1.3
-      terser-webpack-plugin: 1.4.3_webpack@4.44.0
+      terser-webpack-plugin: 1.4.3_webpack@4.46.0
       watchpack: 1.7.4
+      webpack-cli: 3.3.12_webpack@4.46.0
       webpack-sources: 1.4.3
     dev: true
     engines:
       node: '>=6.11.5'
     hasBin: true
     peerDependencies:
-      webpack: '*'
+      webpack-cli: '*'
+      webpack-command: '*'
+    peerDependenciesMeta:
+      webpack-cli:
+        optional: true
+      webpack-command:
+        optional: true
     resolution:
-      integrity: sha512-wAuJxK123sqAw31SpkPiPW3iKHgFUiKvO7E7UZjtdExcsRe3fgav4mvoMM7vvpjLHVoJ6a0Mtp2fzkoA13e0Zw==
+      integrity: sha512-6jJuJjg8znb/xRItk7bkT0+Q7AHCYjjFnvKIWQPkNIOyRqoCGvkOs0ipeQzrqz4l5FtN5ZI/ukEHroeX/o1/5Q==
   /whatwg-encoding/1.0.5:
     dependencies:
       iconv-lite: 0.4.24
@@ -5745,5 +5751,5 @@ specifiers:
   react-dom: ^16.8.6
   ts-jest: 26.1.4
   typescript: 3.9.5
-  webpack: 4.44.0
+  webpack: 4.46.0
   webpack-cli: 3.3.12

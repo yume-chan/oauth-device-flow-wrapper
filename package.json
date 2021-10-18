@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/yume-chan/oauth-device-flow-wrapper#readme",
   "devDependencies": {
-    "@types/jest": "26.0.7",
+    "@types/jest": "27.0.2",
     "@types/node": "12.12.44",
     "@types/node-fetch": "2.5.7",
     "@types/react": "16.9.43",
